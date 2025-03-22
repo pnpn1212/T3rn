@@ -36,4 +36,6 @@ export RPC_ENDPOINTS='{
 ```
 
 # Start
-```$HOME/executor/executor/bin/executor```
+```
+$HOME/executor/executor/bin/executor
+```
