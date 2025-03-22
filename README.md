@@ -1,10 +1,8 @@
 # T3rn v2
 
-# Create and navigate to t3rn directory
-```mkdir t3rn & cd t3rn```
-
 # Download latest release
 ```
+mkdir t3rn & cd t3rn
 curl -s https://api.github.com/repos/t3rn/executor-release/releases/latest | \
 grep -Po '"tag_name": "\K.*?(?=")' | \
 xargs -I {} wget https://github.com/t3rn/executor-release/releases/download/{}/executor-linux-{}.tar.gz
