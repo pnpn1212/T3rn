@@ -27,11 +27,11 @@ export PRIVATE_KEY_LOCAL=0x....
 export EXECUTOR_MAX_L3_GAS_PRICE=1000
 export RPC_ENDPOINTS='{
     "l2rn": ["https://b2n.rpc.caldera.xyz/http"],
-    "arbt": ["Access alchemy to create RPC: https://www.alchemy.com/"],
-    "bast": ["Access alchemy to create RPC: https://www.alchemy.com/"],
-    "opst": ["Access alchemy to create RPC: https://www.alchemy.com/"],
-    "unit": ["Access alchemy to create RPC: https://www.alchemy.com/"],
-    "blst": ["Access alchemy to create RPC: https://www.alchemy.com/"]
+    "arbt": ["https://arbitrum-sepolia.drpc.org", "https://sepolia-rollup.arbitrum.io/rpc"],
+    "bast": ["https://base-sepolia-rpc.publicnode.com", "https://base-sepolia.drpc.org"],
+    "opst": ["https://sepolia.optimism.io", "https://optimism-sepolia.drpc.org"],
+    "unit": ["https://unichain-sepolia.drpc.org", "https://sepolia.unichain.org"],
+    "blst": []
 }'
 ```
 
