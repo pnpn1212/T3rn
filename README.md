@@ -22,9 +22,9 @@ export EXECUTOR_PROCESS_ORDERS_ENABLED=true
 export EXECUTOR_PROCESS_CLAIMS_ENABLED=true
 export EXECUTOR_PROCESS_PENDING_ORDERS_FROM_API=false
 export EXECUTOR_PROCESS_ORDERS_API_ENABLED=false
-export EXECUTOR_ENABLE_BATCH_BIDDING=false
-export PRIVATE_KEY_LOCAL=0x....
-export EXECUTOR_MAX_L3_GAS_PRICE=1000
+export EXECUTOR_ENABLE_BATCH_BIDDING=true
+export PRIVATE_KEY_LOCAL=xxx
+export EXECUTOR_MAX_L3_GAS_PRICE=3000
 export RPC_ENDPOINTS='{
     "l2rn": ["https://b2n.rpc.caldera.xyz/http"],
     "arbt": ["https://arbitrum-sepolia.drpc.org", "https://sepolia-rollup.arbitrum.io/rpc"],
