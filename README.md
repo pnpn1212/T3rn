@@ -34,9 +34,10 @@ export RPC_ENDPOINTS='{
     "blst": ["https://sepolia.blast.io", "https://blast-sepolia.drpc.org"]
 }'
 ```
-Custom RPC: 
-1. alchemy.com
-2. blockpi.io
+## Custom RPC: 
+1. https://alchemy.com
+2. https://blockpi.io
+
 # Start
 ```
 $HOME/executor/executor/bin/executor
