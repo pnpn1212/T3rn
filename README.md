@@ -13,8 +13,8 @@ chmod +x $HOME/executor/executor/bin/executor
 # Configure Settings and Environment Required Variables
 ```
 export ENVIRONMENT=testnet
-export ENABLED_NETWORKS='arbitrum-sepolia,base-sepolia,optimism-sepolia,unichain-sepolia,l2rn'
-export NETWORKS_DISABLED='blast-sepolia'
+export ENABLED_NETWORKS='arbitrum-sepolia,base-sepolia,optimism-sepolia,unichain-sepolia,blast-sepolia,l2rn'
+#export NETWORKS_DISABLED=''
 export LOG_LEVEL=debug
 export LOG_PRETTY=false
 export EXECUTOR_PROCESS_BIDS_ENABLED=true
